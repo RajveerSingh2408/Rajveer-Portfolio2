@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+   <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    
+
+</head>
+
+<body style="margin: 0;">
+
+    <div style="background-color: #14213D; position: relative; min-height: 250px;">
+
+        
+</details>
+
+
+        <!-- Contact Me Dropdown -->
+        <div class="contact-dropdown">
+
+            <span>Contact Me</span>
+
+            <div class="contact-menu">
+
+                <a href="tel:+1234567890">📞 8448150038</a>
+<br>    
+                <a href="mailto:vraj.singh2408@gmail.com"> ✉️ Email</a>
+<br>
+                <a href="https://www.linkedin.com/in/rajveer-singh-bb3360426/" target="_blank">💼 LinkedIn</a>
+
+            </div>
+
+        </div>
+        <figure style="position: absolute; right: 20px; top: 20px; margin: 0; text-align: right;"> <!---Figure element for the profile image--->
+
+            
+            <img src="https://iili.io/CQSkSRe.md.jpg" alt="Rajveer Singh" border="0"
+
+                 alt="Rajveer Singh"
+
+                 width="150"
+
+                 height="150">
+
+            <figcaption style="color: #fca311;"> <!---Used figcaption because wanted to display the name below the image--->
+
+                <big>
+
+                    <b>Rajveer Singh</b>
+
+                </big>
+
+            </figcaption>
+
+        </figure>
+
+        <h1 style="text-align: center; color: #fca311; margin-top: 0; margin-bottom: 30px;">
+
+            Hi, I'm Rajveer Singh 
+
+        </h1>
+
+<br>
+
+        <h2 style="text-align: center; color: #fca311; margin-bottom: 30px;">
+
+            Pursuing B.Tech in Computer Science and Engineerring with specialization in
+
+            <br> Data Science from VIT Pune, India.
+
+        </h2>
+
+<br>
+
+        <p style="text-align: center; color: #fca311;">
+
+            Welcome to my personal portfolio website.
+
+            Here you can learn about me, my education,
+
+            achievements, certificates and projects.
+
+        </p>
+
+        <br>
+
+    </div>
+
+    <style>
+
+        /* Contact Me Dropdown */
+.contact-dropdown {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fca311;
+    font-family: Arial, sans-serif;
+}
+
+/* Contact Me text */
+.contact-dropdown > span {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Dropdown box */
+.contact-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    background-color: #14213D;
+
+    padding: 10px;
+    min-width: 200px;
+
+    border: 1px solid #fca311;
+    border-radius: 8px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+
+    z-index: 1000;
+}
+
+.contact-menu a {
+    display: block;
+
+    color: #fca311;
+    text-decoration: none;
+
+    padding: 10px 12px;
+    margin: 3px 0;
+
+    border-radius: 5px;
+
+    transition: 0.3s;
+}
+
+.contact-menu a:hover {
+    background-color: #fca311;
+    color: #14213D;
+
+    box-shadow: 0 0 10px #fca311;
+}
+/* Items inside dropdown */
+.contact-menu p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+/* Show dropdown when hovering */
+.contact-dropdown:hover .contact-menu {
+    display: block;
+}
+       
+
+       #about,
+#education {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #14213D;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+#about + p,
+#about + p + p,
+#about + p + p + p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #222222;
+    line-height: 1.7;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#education + h4 {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #222222;
+    margin-left: 40px;
+    margin-bottom: 18px;
+}
+
+#education + h4 + p,
+#education + h4 + p + p,
+#education + h4 + p + p + p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+#about ~ p:nth-of-type(4),
+#about ~ p:nth-of-type(5),
+#about ~ p:nth-of-type(6) {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #333333;
+}
+
+#education ~ h4 {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #222222;
+    margin-left: 40px;
+    margin-bottom: 18px;
+}
+
+#education ~ p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#education ~ hr {
+    border: none;
+    border-top: 1px solid #777;
+    margin: 30px 60px;
+}
+
+/* ACHIEVEMENTS */
+
+h4#achievements {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #14213D;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+h4#achievements + p,
+h4#achievements + p + p,
+h4#achievements + p + p + p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+body {
+    background-color: #A9A9A9;
+    font-family: Arial, sans-serif;
+}
+
+.nav-link {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    text-shadow: 0 0 10px #e41414;
+}
+
+
+/* Smooth scrolling for all navigation links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Adds a little space when scrolling to each section */
+#about,
+#education,
+#achievements,
+#Experience,
+#certificates,
+#skills,
+#contact {
+    scroll-margin-top: 30px;
+}
+
+
+
+    body {
+
+        background-color: #f7f7f7;
+
+        font-family: Arial, sans-serif;
+
+    }
+
+    .nav-link {
+
+        color: #000000;
+
+        text-decoration: none;
+
+        margin: 0 15px;
+
+        transition: 0.3s;
+
+     }  
+
+    .nav-link:hover {    
+
+        text-shadow: 0 0 10px #e41414;  
+
+    }
+    
+
+        body {
+
+            background-color: #A9A9A9;
+
+            font-family: Arial, sans-serif;
+
+        }
+
+        hr {
+    border: none;
+    border-top: 1px solid #888;
+    margin: 30px 60px;
+}
+
+/* ================= SKILLS ================= */
+
+.skill-name {
+    margin-left: 40px;
+    margin-bottom: 5px;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+.skill-bar {
+    width: calc(100% - 80px);
+    height: 12px;
+
+    margin-left: 40px;
+    margin-bottom: 18px;
+
+    background-color: #d0d0d0;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.skill {
+    height: 100%;
+
+    background-color: #14213D;
+    color: #fca311;
+
+    text-align: right;
+    padding-right: 8px;
+
+    box-sizing: border-box;
+
+    font-size: 10px;
+    line-height: 12px;
+
+    border-radius: 10px;
+}
+
+/* Skill levels */
+
+.html {
+    width: 50%;
+}
+
+
+/* ================= CONTACT FORM ================= */
+
+.contact-form-container {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 30px;
+
+    background-color: #E5E4E2;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Form groups */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+/* Labels */
+
+.form-group label {
+    display: block;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #14213D;
+
+    margin-bottom: 8px;
+}
+
+.form-group label i {
+    color: #fca311;
+    margin-right: 6px;
+}
+
+
+/* Input + Textarea */
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 12px 14px;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+    color: #333333;
+    background-color: #ffffff;
+
+    border: 1px solid #999999;
+    border-radius: 6px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+
+/* Message box */
+
+.form-group textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+
+/* Input focus */
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #14213D;
+
+    box-shadow: 0 0 6px rgba(20, 33, 61, 0.3);
+}
+
+
+/* Placeholder */
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #888888;
+}
+
+
+/* Submit button */
+
+.submit-btn {
+    display: block;
+
+    width: 100%;
+
+    margin-top: 25px;
+    padding: 13px;
+
+    background-color: #14213D;
+    color: #fca311;
+
+    border: none;
+    border-radius: 6px;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+/* Button hover */
+
+.submit-btn:hover {
+    background-color: #fca311;
+    color: #14213D;
+
+    box-shadow: 0 0 10px rgba(252, 163, 17, 0.5);
+
+    transform: translateY(-2px);
+}
+
+
+/* Button icon */
+
+.submit-btn i {
+    margin-right: 7px;
+}
+
+/* ================= OTHER SECTIONS ================= */
+
+h4#Experience,
+h4#certificates,
+h4#skills,
+h4#contact {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #14213D;
+    
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+/* Experience paragraph */
+
+h4#Experience + p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    margin-top: 50px;
+    padding: 35px 20px;
+
+    background-color: #14213D;
+    color: #fca311;
+
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* Footer heading */
+
+.footer h3 {
+    margin: 0 0 20px 0;
+
+    font-size: 22px;
+}
+
+
+/* Footer links */
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 35px;
+
+    flex-wrap: wrap;
+}
+
+
+/* Links */
+
+.footer-links a {
+    color: #fca311;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+
+/* Icons */
+
+.footer-links i {
+    margin-right: 6px;
+}
+
+
+/* Hover */
+
+.footer-links a:hover {
+    color: #ffffff;
+
+    text-shadow: 0 0 8px #fca311;
+}
+
+
+/* Copyright */
+
+.footer-copy {
+    margin-top: 25px;
+    margin-bottom: 0;
+
+    font-size: 13px;
+    color: #cccccc;
+}
+    </style>
+
+    </div>
+
+    <div style="text-align: center; background-color: #9CAF88; padding: 20px;">
+
+    <a href="#about" class="nav-link">About</a> <!---Navigation link for About section--->
+
+    <span>|</span>
+
+    <a href="#education" class="nav-link">Education</a>
+
+    <span>|</span>
+
+    <a href="#achievements" class="nav-link">Achievements</a>
+
+    <span>|</span>
+
+    <a href="#Experience" class="nav-link">Experience</a>
+
+    <span>|</span>
+
+    <a href="#certificates" class="nav-link">Certificates</a>
+
+    <span>|</span>
+
+    <a href="#skills" class="nav-link">Skills</a>
+
+    <span>|</span>
+
+    <a href="#contact" class="nav-link">Contact</a>
+
+</div>
+
+
+<h2 id="about">About Me</h2>
+
+
+<p> I am Rajveer Singh, a fresher at MITAOE Pune, pursuing Electronics and Computer Engineering . My interests lie in Vibe Coding, AIML, and Gaming. </p>
+
+
+<p>Beyond academics, I am passionate about classical music, holding a Senior Diploma (4th year) in Instrumental Music in Tabla.</p>
+
+
+<p>In addition to my technical and artistic pursuits, I have actively participated in the National Cadet Corps (NCC). I have completed my 1st year and recently appeared for the 'A' certificate exam.</p>
+
+
+
+<p><i class="fa-solid fa-cake-candles"></i> Birthday: 24/03/2008</p>
+
+
+<p><i class="fa-solid fa-location-dot"></i> Location: Pune, Maharashtra, India</p>
+
+
+<p><i class="fa-solid fa-language"></i> Languages: English, Hindi, Punjabi.</p>
+
+
+<hr>
+
+
+<h2 id="education">Education</h2>
+
+<h4>1.MITAOE Pune, India </h4>
+
+
+<p> Bachelor of Technology in Electronics and Computer Engineering </p>
+
+
+<p> Stream: Electronics and Computer Engineering </p>
+
+
+<p> Duration: 2026 - 2030 </p>
+
+
+<hr>
+
+
+<h4>2.MIT VGS, Kothrud, Pune</h4>
+
+
+<p> Higher Secondary Education </p>
+
+
+<p> Stream: Physics,Chemistry and Maths </p>
+
+
+<p> Overall Percentage: 67% </p>
+
+
+<p> Duration: 2024 - 2026 </p>
+
+
+<hr>
+
+
+<h4>3.Delhi Public School, Greater Noida</h4>
+
+
+<p> Secondary Education </p>
+
+
+<p> Overall Percentage: 79% </p>
+
+
+<p> Duration: 2022 - 2024 </p>
+
+
+<hr>
+
+
+<h4 id="achievements">Achievements</h4>
+
+
+<p>1. Participated in the National Cadet Corps (NCC) and completed the 1st year, recently appeared for the 'A' certificate exam.</p>
+
+
+<p>2. Achieved a Senior Diploma (4th year) in Instrumental Music in Tabla, showcasing dedication and proficiency in classical music.</p>
+
+
+<p>3. Secured 3rd place in the Nationals Inter DPS Classical Music Competition.</p>
+
+<h4 id="Experience">Experience</h4>
+<p>Something in future</p>
+
+<h4 id="certificates">Certificates</h4>
+
+
+
+<h4 id="skills">Skills</h4>
+
+<p class="skill-name">HTML</p>
+<div class="skill-bar">
+    <div class="skill html">50%</div>
+</div>
+
+
+
+
+<h4 id="contact">Contact</h4>
+
+<div class="contact-form-container">
+        <form action="https://formspree.io/f/mppabdjz" method="POST">
+            <!-- Hidden input to disable CAPTCHA -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="form-group">
+                <label for="name">
+                    <i class="fas fa-user"></i> Your Name
+                </label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Enter your name" 
+                    required
+                >
+            </div>
+
+            <div class="form-group" style="margin-top: 1.5rem;">
+                <label for="email">
+                    <i class="fas fa-envelope"></i> Your Email
+                </label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="your.email@example.com" 
+                    required
+                >
+            </div>
+
+            <div class="form-group" style="margin-top: 1.5rem;">
+                <label for="message">
+                    <i class="fas fa-comment-alt"></i> Your Message
+                </label>
+                <textarea 
+                    id="message" 
+                    name="message" 
+                    placeholder="Hello Rajveer, I'd like to connect about..." 
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+        </form>
+    </div>
+</section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Navigation functionality
+            const navLinks = document.querySelectorAll('.nav-menu a');
+            const sections = document.querySelectorAll('.section');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove active class from all links and sections
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    sections.forEach(s => s.classList.remove('active'));
+                    
+                    // Add active class to clicked link
+                    this.classList.add('active');
+                    
+                    // Show corresponding section
+                    const sectionId = this.getAttribute('href');
+                    document.querySelector(sectionId).classList.add('active');
+                    
+                    // Close mobile menu if open
+                    if (document.body.classList.contains('menu-open')) {
+                        document.body.classList.remove('menu-open');
+                    }
+                });
+            });
+            
+            // Mobile menu toggle (for smaller screens)
+            const menuToggle = document.createElement('div');
+            menuToggle.className = 'menu-toggle';
+            menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            document.body.appendChild(menuToggle);
+            
+            menuToggle.addEventListener('click', function() {
+                document.body.classList.toggle('menu-open');
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 20,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+
+<footer class="footer">
+
+    <h3>Contact Me</h3>
+
+    <div class="footer-links">
+
+        <a href="tel:+918448150038">
+            <i class="fas fa-phone"></i> 8448150038
+        </a>
+
+        <a href="mailto:vraj.singh2408@gmail.com">
+            <i class="fas fa-envelope"></i> vraj.singh2408@gmail.com
+        </a>
+
+        <a href="https://www.linkedin.com/in/rajveer-singh-bb3360426/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+
+    </div>
+
+    <p class="footer-copy">
+        © 2026 Rajveer Singh. All Rights Reserved.
+    </p>
+
+</footer>
+</body>
+
+</html>
